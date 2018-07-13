@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\lenovo\Pictures\t01a322c943b6698d04.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\fifth.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\百度云盘\百度云同步盘\人脸识别\picture\REC0009_148.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\testForDAS.JPG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\百度云盘\百度云同步盘\人脸识别\picture\REC0009_228.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\testForDK1.JPG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\图片多人脸.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="test.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="test.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testForCSDN1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\..\软件\OpenCV\opencv249\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\软件\OpenCV\opencv249\opencv\sources\data\haarcascades\haarcascade_frontalface_alt.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
