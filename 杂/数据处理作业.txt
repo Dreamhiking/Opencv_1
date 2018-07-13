@@ -1,0 +1,42 @@
+1.实现摄像接口
+    bool takePicHandle() ：return  true/false 将文件保存到student 的pic.jpg下面。
+
+2.实现读写拍好照片的图像的接口
+---直接使用代码（Mat test_image = imread("student/pic.jpg",CV_LOAD_IMAGE_GRAYSCALE);）
+
+3.实现该照片的测试的接口，并且实现照片测试的结果反馈的接口
+string TestPeo(int image_cols,int image_rows,int class_mun)
+参数的指图像的resize 的大小，以及当前0
+
+string TestPeo1(int image_cols,int image_rows,int class_mun,vector<string> vec);
+
+5.添加新学生的个人视频的录制接口，将视频转化成照片接口
+bool addStudentAvi()：到newstudent/student.avi 将照片保存的路径为newstudent/pic/
+bool addStudentAvi(int number); 到newstudent/student.avi 将照片保存的路径为对应的文件夹中
+
+6.添加新学生的标签的命名接口
+直接通过界面，获得名字，再放入文件file.txt中。
+bool write_string_to_file_append(string file_string,string str );  写文件
+  
+7.将新的学生的照片，裁剪成60*60的大小
+void detectAndCut( Mat img ,string dir, string filename)：//使用AllImagePro的方法，将图片裁剪
+void AllImagePro( string src, string dst, static int number )：//获得文件夹下面的所有的文件
+
+8.将照片进行60*60的处理接口
+
+
+9.生成训练的xml 文件接口
+
+
+
+tool：
+bool write_string_to_file_append(string file_string,string str );  写文件
+vector<string>  returnFileString();   将文件内容保存成string的栈
+
+
+当前获得文件的图片的数量：
+当前文件夹的名字：文件中名字的数字
+
+
+
+
